@@ -5,11 +5,13 @@ import Section from './components/Section'
 
 function App() {
   return (
-    <div className='main-container'>
-      <Header />
-      <Hero />
+    <>
+      <div className='main-container'>
+        <Header />
+        <Hero />
+      </div>
       <Section />
-    </div>
+    </>
   )
 }
 

@@ -1,0 +1,38 @@
+.section {
+  background-color: #161b25;
+}
+
+.section-content {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.section-content h3 {
+  padding: 20px 0;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.section-content p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.section-content .btn {
+  width: 100%;
+  font-weight: 600;
+  color: #cfd1d4;
+  background-color: transparent;
+  border: 2px solid #cfd1d4;
+  border-radius: 500px;
+  padding: 20px;
+  margin: 30px 0;
+}
+
+.section-content .pickup-img {
+  width: 100%;
+  margin: 10px 0;
+}

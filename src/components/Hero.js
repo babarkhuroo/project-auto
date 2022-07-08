@@ -24,7 +24,7 @@ const Hero = () => {
         <input type='text' placeholder='Enter Your Mail' />
         <button type='submit'>Submit</button>
       </form>
-      <img src={hero_img} alt='hero' />
+      <img src={hero_img} alt='hero' className='hero-img' />
       <div className='social-links'>
         <a href='#'>
           <FaFacebookF size='1.5em' />

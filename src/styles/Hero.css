@@ -38,7 +38,6 @@ input:focus {
 }
 
 button {
-  color: #cfd1d4;
   transition: all 0.1s linear;
 }
 
@@ -48,7 +47,7 @@ button:hover {
   border: 1px solid #7e0fe1;
 }
 
-img {
+.hero-img {
   margin: 50px 0;
 }
 
