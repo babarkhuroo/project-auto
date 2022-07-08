@@ -1,0 +1,45 @@
+.footer-container {
+  background-color: #161b25;
+  text-align: center;
+  border-top: 1px solid #cfd1d411;
+  padding: 50px 0 30px;
+}
+
+.footer {
+  font-size: 13px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  line-height: 0;
+}
+
+.contact p span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.copyright {
+  margin: 20px 0;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.links a,
+.socials a {
+  color: #cfd1d4;
+}

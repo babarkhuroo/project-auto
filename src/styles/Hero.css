@@ -24,12 +24,12 @@
 }
 
 input,
-button {
+.submit-btn {
   color: #cfd1d4;
   background-color: transparent;
-  border: 1px solid #cfd1d4;
+  border: 1px solid #cfd1d47c;
   border-radius: 500px;
-  padding: 20px;
+  padding: 15px 25px;
   margin: 10px 0;
 }
 
@@ -37,14 +37,15 @@ input:focus {
   outline: none;
 }
 
-button {
+.submit-btn {
   transition: all 0.1s linear;
 }
 
-button:hover {
+.submit-btn:hover {
   color: #fff;
   background-color: #7e0fe1;
   border: 1px solid #7e0fe1;
+  cursor: pointer;
 }
 
 .hero-img {

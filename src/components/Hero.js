@@ -22,7 +22,9 @@ const Hero = () => {
       <form className='form'>
         <input type='text' placeholder='Enter Your Name' />
         <input type='text' placeholder='Enter Your Mail' />
-        <button type='submit'>Submit</button>
+        <button type='submit' className='submit-btn'>
+          Submit
+        </button>
       </form>
       <img src={hero_img} alt='hero' className='hero-img' />
       <div className='social-links'>
