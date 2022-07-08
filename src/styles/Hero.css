@@ -1,0 +1,65 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hero-head {
+  text-transform: capitalize;
+  padding: 20px 0;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.hero-para {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.form {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+button {
+  color: #cfd1d4;
+  background-color: transparent;
+  border: 1px solid #cfd1d4;
+  border-radius: 500px;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  color: #cfd1d4;
+  transition: all 0.1s linear;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #7e0fe1;
+  border: 1px solid #7e0fe1;
+}
+
+img {
+  margin: 50px 0;
+}
+
+.social-links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.social-links a {
+  color: #cfd1d4;
+}
