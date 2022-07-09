@@ -23,3 +23,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 It will build the app for production to the `build` folder.\
 Use this step only if you want to deploy this project.
+
+<hr/>
+
+### Note: Creation of database required some backend knowledge which i don't have yet. I'm willing to learn as being a full-stack developer is my main goal.
