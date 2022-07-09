@@ -1,5 +1,6 @@
 .section {
-  background-color: #161b25;
+  /* background-color: #161b25; */
+  background: linear-gradient(#161b25, #0e1218);
 }
 
 .section-content {

@@ -20,8 +20,8 @@ const Hero = () => {
         deal with unexpected repairs worry-free.
       </p>
       <form className='form'>
-        <input type='text' placeholder='Enter Your Name' />
-        <input type='text' placeholder='Enter Your Mail' />
+        <input type='text' placeholder='Enter Your Name' required />
+        <input type='email' placeholder='Enter Your Mail' required />
         <button type='submit' className='submit-btn'>
           Submit
         </button>

@@ -1,5 +1,5 @@
 .footer-container {
-  background-color: #161b25;
+  background-color: #0e1218;
   text-align: center;
   border-top: 1px solid #cfd1d411;
   padding: 50px 0 30px;
@@ -9,6 +9,10 @@
   font-size: 13px;
   width: 80%;
   margin: 0 auto;
+}
+
+.footer-logo {
+  width: 150px;
 }
 
 .contact {

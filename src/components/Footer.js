@@ -9,12 +9,13 @@ import {
   FaInstagram,
 } from 'react-icons/fa'
 import '../styles/Footer.css'
+import footer_logo from '../assets/logo_footer.png'
 
 const Footer = () => {
   return (
     <footer className='footer-container'>
       <div className='footer'>
-        <h2>OPENAUTO</h2>
+        <img src={footer_logo} alt='footer_logo' className='footer-logo' />
         <div className='contact'>
           <p>
             <span>
