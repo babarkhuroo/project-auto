@@ -18,6 +18,7 @@ const Section = () => {
           </p>
           <button className='btn'>Download the mobile app</button>
         </main>
+
         <div className='img-container'>
           <img src={pickup_img} alt='pickup' className='pickup-img' />
         </div>

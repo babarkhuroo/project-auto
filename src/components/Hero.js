@@ -30,8 +30,10 @@ const Hero = () => {
             </button>
           </form>
         </div>
+
         <img src={hero_img} alt='hero' className='hero-img' />
       </div>
+
       <div className='social-container'>
         <div className='social-links'>
           <a href='#'>
@@ -50,6 +52,7 @@ const Hero = () => {
             <FaInstagram size='1.5em' />
           </a>
         </div>
+
         <div className='scroll-img'>
           <img src={scroll_img} alt='scroll' />
         </div>

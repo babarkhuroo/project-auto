@@ -47,3 +47,27 @@
 .socials a {
   color: #cfd1d4;
 }
+
+@media (min-width: 1280px) {
+  .footer {
+    font-size: 15px;
+  }
+  .footer-contact,
+  .other-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-logo {
+    width: 200px;
+  }
+  .contact {
+    gap: 40px;
+  }
+  .other-links .links {
+    display: none;
+  }
+  .socials {
+    gap: 20px;
+  }
+}

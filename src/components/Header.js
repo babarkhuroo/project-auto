@@ -6,10 +6,11 @@ import { IoIosMail } from 'react-icons/io'
 
 const Header = () => {
   return (
-    <nav>
+    <nav className='nav'>
       <div className='logo'>
         <img src={Logo} alt='logo' />
       </div>
+
       <ul className='nav-links'>
         <li>
           <span>
