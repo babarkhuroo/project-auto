@@ -28,7 +28,7 @@ const Hero = () => {
     if (name.trim() === '' || email.trim() === '') {
       alert('required both field')
     } else {
-      alert(name + ' ' + email)
+      alert(`Name: ${name}, Email: ${email}`)
       setName('')
       setEmail('')
     }
